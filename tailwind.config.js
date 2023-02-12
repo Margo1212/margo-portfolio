@@ -4,17 +4,23 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
     "./src/styles/**/*.{js,ts,jsx,tsx}",   
+    "./src/views/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     colors: {
       primary: {
-        
+        500: '#68138C',
+        300: '#9126BF',
+        200: '#CC6AD9',
+        100: '#A458C5'
       },
-      light: {
-        
+      secondary: {
+        500: '#81B80C',
+        300: '#BAD977'
       },
-      dark: {
-        
+      text: {
+        primary: '#000000',
+        secondary: '#595959',  
       },
       alert: '#AC353D',
     },
