@@ -6,7 +6,7 @@ import Facebook from '@svg/facebook.svg';
 
 export const SocialMedia = () => {
     return (
-        <ul className="flex">
+        <ul className="flex drop-shadow-lg ">
             <li className='mx-2'><LinkedIn /></li>
             <li className='mx-2'><Behance /></li>
             <li className='mx-2'><Instagram /></li>
