@@ -20,7 +20,8 @@ module.exports = {
       },
       text: {
         primary: '#000000',
-        secondary: '#595959',  
+        dark: '#595959',
+        light: '#C6C6C6',
       },
       alert: '#AC353D',
     },
