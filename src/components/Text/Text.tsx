@@ -6,6 +6,6 @@
   };
 
 
-  export const Text = ({ size = 'text-3xl', color, weigth, children }: InputProps) => {
-    return <p className={`${size} text-${color} font-${weigth}`} >{children}</p>;
+  export const Text = ({ size = 'text-3xl',  color, weigth, children }: InputProps) => {
+    return <p className={`${size} py-1 text-${color} font-${weigth}`} >{children}</p>;
   };
