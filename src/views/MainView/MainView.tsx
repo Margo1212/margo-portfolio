@@ -1,6 +1,7 @@
 import { Button } from "@components/Button";
 import { Text } from "@components/Text";
 import MainImage from "@svg/mainimg.svg";
+import Link from "next/link";
 
 
 export const MainView = () => {
@@ -17,8 +18,8 @@ export const MainView = () => {
                     <Text  weigth="normal" color="text-dark" size="text-xl" >I love creating beautiful, responsive, user-friendly websites and web applications using modern front-end technologies.</Text>
                     </div>
                     <div className="w-full flex flex-row">
-                        <Button background="filled">Contact me</Button>
-                        <Button background="outline">Download CV</Button>
+                        <Button width="sm" background="filled"><Link href="/contact"><Text  weigth="semibold" color="#fff" size="text-xl" >Contact me</Text></Link></Button>
+                        <Button width="sm" background="outline"><Text weigth="semibold" size="text-xl" >Download CV</Text></Button>
                     </div>
                 </div>
                 <div className="w-1/2 flex">
