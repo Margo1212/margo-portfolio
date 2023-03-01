@@ -1,4 +1,4 @@
-// import Footer from './footer'
+import {Footer} from '@components/Footer'
 
 import { Navigation } from "@components/Navigation";
 import { ReactElement } from "react";
@@ -12,7 +12,7 @@ export default function Layout({ children }: LayoutProps) {
     <>
       <Navigation />
       <main>{children}</main>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

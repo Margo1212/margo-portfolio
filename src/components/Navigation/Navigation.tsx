@@ -7,9 +7,9 @@ export const Navigation = () => {
     return (
         <nav className="w-full h-20 px-32 flex justify-between items-center border-[0.1px] border-text-light">
             <Logo />
-            <NavigationMenu />
+            <NavigationMenu color='purple' />
             <div className='flex'>
-                <SocialMedia />
+                <SocialMedia fill='purple' />
                 <Language />
             </div>
         </nav>
