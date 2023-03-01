@@ -5,9 +5,10 @@ import Link from "next/link";
 
 
 export const MainView = () => {
+
     return (
         <>
-            <div className="container h-[calc(100vh-80px)] px-32 flex items-center">
+            <section id="main" className="container h-[calc(100vh-80px)] px-32 flex items-center">
                 <div className="w-1/2 flex flex-col">
                     <div>
                         <Text  weigth="semibold" color="primary-300" size="text-2xl" >Hi there!</Text>
@@ -25,7 +26,11 @@ export const MainView = () => {
                 <div className="w-1/2 flex">
                     <MainImage />
                 </div>
-            </div>
+            </section>
+            <section id="about" className="container h-[calc(100vh-80px)] px-32">
+                about
+            </section>
+
         </>
     );
 }
