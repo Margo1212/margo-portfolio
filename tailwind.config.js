@@ -25,7 +25,11 @@ module.exports = {
       },
       alert: '#AC353D',
     },
-    extend: {},
+    extend: {
+      textDecorationThickness: {
+        2: '1.5px',
+      }
+    },
   },
   plugins: [],
 }
