@@ -12,7 +12,7 @@ export const NavigationMenu = ({ color }: NavigationProps) => {
 	return (
 		<ul className="flex w-1/3 justify-between font-semibold text-base">
 			<li className={navlinks}>
-				<Link href="/">about</Link>
+				<Link href="#about">about</Link>
 			</li>
 			<li className={navlinks}>
 				<Link href="/projects">portfolio</Link>
