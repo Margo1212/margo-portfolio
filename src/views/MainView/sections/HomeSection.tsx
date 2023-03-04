@@ -6,9 +6,9 @@ import Link from "next/link"
 
 export const HomeSection = () => {
 	return (
-		<section id="home" className="container h-[calc(100vh-80px)] w-full px-32 flex">
-			<div className="w-1/2 pt-20">
-				<div>
+		<section id="home" className="container h-[calc(min(100vh-80px))] w-full px-32 flex m-0 items-center">
+			<div className="w-2/4 pb-10">
+				<div className="flex-col space-y-4">
 					<Text weigth="semibold" color="primary-300" size="text-2xl">
 						Hi there!
 					</Text>
@@ -40,7 +40,7 @@ export const HomeSection = () => {
 					</Button>
 				</div>
 			</div>
-			<div className="w-2/4 flex pt-10 pl-5">
+			<div className="w-2/4 pb-10">
 				<MainImage />
 			</div>
 			<div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
