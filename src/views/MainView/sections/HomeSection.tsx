@@ -26,14 +26,14 @@ export const HomeSection = () => {
 					</Text>
 				</div>
 				<div className="w-full flex flex-row">
-					<Button width="sm" background="filled">
+					<Button width="sm" variant="filled">
 						<Link href="/contact">
 							<Text weigth="semibold" color="#fff" size="text-base">
 								Contact me
 							</Text>
 						</Link>
 					</Button>
-					<Button width="sm" background="outline">
+					<Button width="sm" variant="outline">
 						<Text weigth="semibold" size="text-base">
 							Download CV
 						</Text>

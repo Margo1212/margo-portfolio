@@ -25,7 +25,7 @@ export const AboutSection = () => {
 						continue doing what I love so much.
 					</Text>
 				</div>
-				<Button width="sm" background="filled">
+				<Button width="sm" variant="filled">
 					<Link href="/projects">
 						<Text weigth="semibold" color="#fff" size="text-base">
 							My projects
