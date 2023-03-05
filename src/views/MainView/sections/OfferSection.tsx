@@ -11,15 +11,25 @@ export const OfferSection = () => {
 				</Text>
 			</div>
 			<div className="grid grid-cols-3 grid-rows-2 items-center [&>*]:justify-self-center gap-10 mt-20">
-				<Card size="sm">blaaa</Card>
+				<Card border="border" size="sm">
+					blaaa
+				</Card>
 				<div className="">
 					<OfferImage />
 				</div>
 
-				<Card size="sm">blaaa</Card>
-				<Card size="sm">blaaa</Card>
-				<Card size="sm">blaaa</Card>
-				<Card size="sm">blaaa</Card>
+				<Card border="border" size="sm">
+					blaaa
+				</Card>
+				<Card border="border" size="sm">
+					blaaa
+				</Card>
+				<Card border="border" size="sm">
+					blaaa
+				</Card>
+				<Card border="border" size="sm">
+					blaaa
+				</Card>
 			</div>
 		</section>
 	)
