@@ -7,7 +7,7 @@ export default {
 	component: Button,
 	argTypes: {
 		children: {
-			defaultValue: "Zaloguj sie",
+			defaultValue: "Some text",
 			name: "text inside button",
 			type: {
 				name: "string",

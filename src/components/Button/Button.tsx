@@ -15,7 +15,8 @@ const variantClasses: Record<ButtonVariants, string> = {
 		"rounded-full p-2 mr-2 drop-shadow-lg border-2 bg-[#fff] border-primary-300 text-primary-300  hover:border-primary-100 hover:text-primary-100 active:border-primary-500 active:text-primary-500",
 }
 
-export const Button = ({ children, variant, width, ...props }: ButtonProps) => {
+export const Button = (props: ButtonProps) => {
+	const { children, variant, width } = props
 	const btnWidth = width === "sm" ? "w-36" : "w-1/2"
 	return (
 		<button
