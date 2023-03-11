@@ -6,5 +6,5 @@
 }
 
 export const Text = ({ size = "text-base", color = "#fff", weigth, children }: InputProps) => {
-	return <p className={`${size} text-${color} font-${weigth} drop-shadow-lg`}>{children}</p>
+	return <p className={`${size} text-${color} font-${weigth} drop-shadow-lg leading-normal`}>{children}</p>
 }
