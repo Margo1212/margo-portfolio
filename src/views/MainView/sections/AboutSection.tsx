@@ -5,15 +5,18 @@ import Link from "next/link"
 
 export const AboutSection = () => {
 	return (
-		<section id="about" className="container w-full h-[32rem] px-32 flex items-center">
-			<div className="w-1/2 flex justify-center">
+		<section
+			id="about"
+			className="w-screen py-6 px-7 h-[50vh] lg:w-screen grid lg:grid-cols-2 lg:h-[32rem] lg:px-32 space-y-2"
+		>
+			<div className="hidden lg:flex lg:justify-center">
 				<AboutImage />
 			</div>
-			<div className="w-1/2 flex-col items-center px-10">
+			<div className="w-full lg:flex  lg:flex-col items-center space-y-6 text-center lg:pl-5">
 				<Text weigth="semibold" color="primary" size="text-3xl">
 					About me
 				</Text>
-				<div className="mt-5 mb-10 pr-10">
+				<div className="lg:mt-5 lg:mb-10 text-justify indent-4 space-y-2">
 					<Text weigth="normal" color="text-dark" size="text-base">
 						My adventure with creating applications and websites began in 2020. Since then, I have been
 						expanding my knowledge of programming and web design day by day.
@@ -25,7 +28,7 @@ export const AboutSection = () => {
 						continue doing what I love so much.
 					</Text>
 				</div>
-				<Button width="sm" variant="filled">
+				<Button variant="filled">
 					<Link href="/projects">
 						<Text weigth="semibold" color="#fff" size="text-base">
 							My projects
