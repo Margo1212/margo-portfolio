@@ -1,3 +1,3 @@
 export const ContactView = () => {
-	return <div className="text-primary-500">Kontakt</div>
+	return <section className="w-screen grid"></section>
 }
