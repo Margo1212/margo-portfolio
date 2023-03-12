@@ -1,12 +1,7 @@
 import Head from "next/head"
-import Image from "next/image"
-import { Inter } from "@next/font/google"
 import { MainView } from "@views/MainView/MainView"
 import Layout from "@components/Layout/Layout"
-import { ReactElement, ReactNode } from "react"
-import { NextPage } from "next"
-
-const inter = Inter({ subsets: ["latin"] })
+import { ReactElement } from "react"
 
 function Home() {
 	return (

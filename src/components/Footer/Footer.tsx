@@ -1,4 +1,3 @@
-import React from "react"
 import Logo from "@svg/logo.svg"
 import { NavigationMenu } from "@components/NavigationMenu/NavigationMenu"
 import { SocialMedia } from "@components/SocialMedia/SocialMedia"

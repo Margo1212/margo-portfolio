@@ -7,15 +7,7 @@
 		"plugin:@typescript-eslint/recommended"
 	],
 	"ignorePatterns": ["node_modules/**"],
-	"plugins": [
-		"@typescript-eslint",
-		"prettier",
-		"jest",
-		"jsx-a11y",
-		"simple-import-sort",
-		"unicorn",
-		"unused-imports"
-	],
+	"plugins": ["@typescript-eslint", "prettier", "jest", "jsx-a11y", "unicorn", "unused-imports"],
 	"rules": {
 		"prettier/prettier": [
 			"error",
@@ -36,8 +28,6 @@
 		"react-hooks/exhaustive-deps": "off",
 		"@next/next/no-img-element": "off",
 		"import/prefer-default-export": "off",
-		"simple-import-sort/imports": "error",
-		"simple-import-sort/exports": "error",
 		"unused-imports/no-unused-imports": "error",
 		"unused-imports/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }]
 	}

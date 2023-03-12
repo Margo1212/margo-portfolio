@@ -1,4 +1,3 @@
-import { NextPage } from "next"
 import { ContactView } from "@views/ContactView/ContactView"
 import Head from "next/head"
 import { ReactElement } from "react"

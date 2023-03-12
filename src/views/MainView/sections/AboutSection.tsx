@@ -7,7 +7,7 @@ export const AboutSection = () => {
 	return (
 		<section
 			id="about"
-			className="w-screen py-6 px-7 h-[50vh] lg:w-screen grid lg:grid-cols-2 lg:h-[32rem] lg:px-32 space-y-2"
+			className="w-screen pt-10 px-7 h-[60vh] lg:w-screen grid lg:grid-cols-2 lg:h-[32rem] lg:px-32 space-y-2"
 		>
 			<div className="hidden lg:flex lg:justify-center">
 				<AboutImage />

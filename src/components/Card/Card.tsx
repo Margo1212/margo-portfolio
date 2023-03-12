@@ -8,7 +8,7 @@ type CardProps = {
 
 export const Card = ({ children, size, border }: CardProps) => {
 	const sizeOfCard = size === "sm" ? "w-52 h-56" : "w-[25rem] h-[32rem]"
-	const isCardWithBorder = border === "border" ? "border-b-8 border-primary-300" : null
+	const isCardWithBorder = border === "border" ? "border-b-8 border-primary-300" : ""
 	return (
 		<div className={`${sizeOfCard} bg-[#fff] drop-shadow-lg ${isCardWithBorder}  rounded-lg `}>
 			{children}

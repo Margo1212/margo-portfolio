@@ -1,4 +1,3 @@
-import { NextPage } from "next"
 import { ProjectsView } from "@views/ProjectsView/ProjectsView"
 import Head from "next/head"
 import Layout from "@components/Layout/Layout"
