@@ -4,7 +4,7 @@ import { Card } from "@components/Card"
 
 export const OfferSection = () => {
 	return (
-		<section className="w-full lg:h-screen pt-10 px-7 lg:px-32">
+		<section className="w-screen lg:h-screen py-7 px-7 lg:px-32">
 			<div className="text-center">
 				<Text weigth="semibold" color="primary" size="text-3xl">
 					What can I do for you

@@ -3,7 +3,7 @@ import { Text } from "@components/Text"
 
 export const SkillsSection = () => {
 	return (
-		<section className="container w-full h-screen px-32">
+		<section className="">
 			<div className="w-full flex justify-center">
 				<Text size="text-3xl" color="primary" weigth="semibold">
 					Stack of technologies

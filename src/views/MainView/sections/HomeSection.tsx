@@ -15,7 +15,7 @@ export const HomeSection = () => {
 					Hi there!
 				</Text>
 				<Text weigth="bold" color="primary" size="text-6xl">
-					I`m Margo
+					I'm Margo
 				</Text>
 				<Text weigth="semibold" color="primary-300" size="text-2xl">
 					junior front-end developer
