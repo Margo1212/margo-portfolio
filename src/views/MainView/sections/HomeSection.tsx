@@ -8,7 +8,7 @@ export const HomeSection = () => {
 	return (
 		<section
 			id="home"
-			className=" w-screen m-0 px-7 pt-7 space-y-2 grid grid-cols-1 lg:w-screen lg:justify-items-stretch lg:px-32 lg:place-items-center lg:grid-cols-2 lg:grid-rows-5 lg:h-[calc(min(100vh-80px))] "
+			className="w-screen m-0 px-7 pt-7 space-y-2 grid grid-cols-1 lg:h-[calc(min(100vh-80px))] lg:justify-items-stretch lg:px-32 lg:place-items-center lg:grid-cols-2 lg:grid-rows-5  "
 		>
 			<div className="text-center md:text-start lg:space-y-3 lg:pr-44 lg:place-items-center lg:row-start-1 lg:col-start-1 lg:row-end-4 lg:col-end-2">
 				<Text weigth="semibold" color="primary-300" size="text-2xl">
