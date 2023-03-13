@@ -10,7 +10,7 @@ export const SkillsSection = () => {
 				</Text>
 			</div>
 			<div className="flex w-full justify-center">
-				<div className="w-[100vw] md:w-[40vw]">
+				<div className="w-[100vw] md:w-[37vw]">
 					<SkillsImage />
 				</div>
 			</div>
